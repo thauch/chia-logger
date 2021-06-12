@@ -16,24 +16,25 @@ from datetime import datetime
 from subprocess import Popen, PIPE, STDOUT
 from requests.exceptions import HTTPError
 
+## Put your command here
+#
+plot = "./chia_plot -n -1 -p -f -t /home/plotter1/raid0/ -d /media/plotter1/SG8TB2/ -r 16 -u 7"
+
+## Dashboard settings
+updateDashboard = True
+dashboardApiKey = 'a12837ad-de9d-40ac-acb8-c93f47a968b2'
+
 dir = os.path.dirname(os.path.realpath(__file__))
-
 logging.basicConfig(filename='dashboard.log', format='%(asctime)s [%(levelname)s]: %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.ERROR)
-
 logfile = 'plot.log'
 
-updateDashboard = True
-
+## Phase weight
 phase1_weight = 43.6
 phase2_weight = 22.9
 phase3_weight = 29.4
 phase4_weight = 4.0
 
-## Put your command here
-#
-plot = "./chia_plot -n -1 -p b17c7e4a3d5f2d043e1caf101bec739d7e0afbc90fd887895cbdf67c9c68e4c620531a8c5c19dff79a4a5ecd24896b3b -f b6a7ec74513ac11ec688dbc215a44457df3f5fac945bb71f97be2734d7f4b4f04464fa5a4041db74cc7aeac847e01a2d -t /home/plotter1/raid0/ -d /media/plotter1/SG8TB2/ -r 16 -u 7"
-
-
+## Check if process is still running
 def check_pid(pid):        
     try:
         os.kill(pid, 0)
@@ -42,6 +43,7 @@ def check_pid(pid):
     else:
         return True
 
+## Update dashboard satellite
 def dashboard_request(id, startTime, phase, progress):
     data = {
         "plotter": {
@@ -60,7 +62,7 @@ def dashboard_request(id, startTime, phase, progress):
     url = "https://us.chiadashboard.com"
     headers = {
         # 'Authorization': "Bearer " + dashboard_settings.get('dashboard_api_key'),
-        'Authorization': "Bearer a12837ad-de9d-40ac-acb8-c93f47a968b2",
+        'Authorization': 'Bearer ' + dashboardApiKey,
         'Content-Type': 'application/json'
     }
     try:
@@ -128,11 +130,9 @@ with open(logfile, 'a') as log:
                 phase = 5
                 progress = 1.00
                 dashboard_request(id, startTime, phase, progress)
-            # else:
+            
             #     if check_pid(id) == False:
             #         dashboard_request(id, startTime, phase, progress)
-
-
         log.flush()
     
 
