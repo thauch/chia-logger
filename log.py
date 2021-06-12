@@ -96,6 +96,7 @@ with open(logfile, 'a') as log:
         if updateDashboard == True:
             if "Process ID" in line:
                 id = line.split("Process ID: ")[1]
+                progress = 0
             if "Plot Name" in line:
                 startTime = datetime.now()
             if "[P1]" in line:
