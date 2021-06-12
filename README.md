@@ -1,4 +1,4 @@
-# chia-plotter-logger
+# chia-logger
 
 Logger for madMAx43v3r's chia-plotter
 <br>https://github.com/madMAx43v3r/chia-plotter
