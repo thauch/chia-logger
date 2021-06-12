@@ -22,7 +22,7 @@ plot = "./chia_plot -n -1 -p -f -t /home/plotter1/raid0/ -d /media/plotter1/SG8T
 
 ## Dashboard settings
 updateDashboard = True
-dashboardApiKey = 'a12837ad-de9d-40ac-acb8-c93f47a968b2'
+dashboardApiKey = 'XXXXXXXXXXXXXXXXXXXXXXXX'
 
 dir = os.path.dirname(os.path.realpath(__file__))
 logging.basicConfig(filename='dashboard.log', format='%(asctime)s [%(levelname)s]: %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.ERROR)
