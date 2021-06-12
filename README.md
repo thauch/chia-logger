@@ -3,6 +3,8 @@
 Logger for madMAx43v3r's chia-plotter
 <br>https://github.com/madMAx43v3r/chia-plotter
 
+I've only tested it using python3 on Ubuntu.
+
 Prints the output of the terminal and stores it to the specified log file (plot.log)
 
 Put this script in the build folder of Madmax's chia-plotter
