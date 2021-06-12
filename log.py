@@ -4,6 +4,7 @@
 #
 ## Put this script in the build folder of Madmax's chia-plotter
 #
+import os
 import sys
 import subprocess
 import shlex
@@ -18,7 +19,7 @@ logfile = 'plot.log'
 plot = "./chia_plot -n 1 -p your-public-key -f your-farmer-key -t /mnt/raid0/ -d /mnt/18TB/ -r 16 -u 7"
 
 
-plot =  subprocess.Popen(shlex.split(plot), cwd=dir, stdout=PIPE, stderr=STDOUT, universal_newlines=True)
+plot = subprocess.Popen(shlex.split(plot), cwd=dir, stdout=PIPE, stderr=STDOUT, universal_newlines=True)
 with open(logfile, 'w') as log:
 	for line in plot.stdout:
 	    sys.stdout.write(line)
