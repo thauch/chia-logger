@@ -20,7 +20,7 @@ plot = "./chia_plot -n 1 -p your-public-key -f your-farmer-key -t /mnt/raid0/ -d
 
 
 plot = subprocess.Popen(shlex.split(plot), cwd=dir, stdout=PIPE, stderr=STDOUT, universal_newlines=True)
-with open(logfile, 'w') as log:
+with open(logfile, 'a') as log:
 	for line in plot.stdout:
 	    sys.stdout.write(line)
 	    log.write(str(datetime.now()) + ": " + line)
