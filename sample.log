@@ -1,0 +1,152 @@
+2021-06-11 21:54:01.723874: Multi-threaded pipelined Chia k32 plotter - 2920125
+2021-06-11 21:54:01.723923: Final Directory: /media/plotter1/SG8TB2/
+2021-06-11 21:54:01.723930: Number of Plots: infinite
+2021-06-11 21:54:01.724123: Process ID: 1500645
+2021-06-11 21:54:01.724131: Number of Threads: 16
+2021-06-11 21:54:01.724137: Number of Buckets: 2^7 (128)
+2021-06-11 21:54:01.737348: Working Directory:   /home/plotter1/raid0/
+2021-06-11 21:54:01.737380: Working Directory 2: /home/plotter1/raid0/
+2021-06-11 21:54:01.737389: Plot Name: plot-k32-2021-06-11-21-54-c722ff260691bef4c9808726becc2fd035843cb8427801755113b540b3ea5665
+2021-06-11 21:54:20.557584: [P1] Table 1 took 18.7552 sec
+2021-06-11 21:56:53.957663: [P1] Table 2 took 153.398 sec, found 4294929384 matches
+2021-06-11 22:00:16.171625: [P1] Table 3 took 202.213 sec, found 4294921068 matches
+2021-06-11 22:04:19.937708: [P1] Table 4 took 243.764 sec, found 4294884685 matches
+2021-06-11 22:08:24.702547: [P1] Table 5 took 244.763 sec, found 4294956407 matches
+2021-06-11 22:12:15.635514: [P1] Table 6 took 230.931 sec, found 4294986813 matches
+2021-06-11 22:15:03.889371: [P1] Table 7 took 168.254 sec, found 4295054157 matches
+2021-06-11 22:15:03.889995: Phase 1 took 1262.15 sec
+2021-06-11 22:15:03.890006: [P2] max_table_size = 4295054157
+2021-06-11 22:15:28.446106: [P2] Table 7 scan took 21.7708 sec
+2021-06-11 22:16:12.618692: [P2] Table 7 rewrite took 44.1726 sec, dropped 0 entries (0 %)
+2021-06-11 22:16:56.482665: [P2] Table 6 scan took 42.742 sec
+2021-06-11 22:18:11.835901: [P2] Table 6 rewrite took 75.3507 sec, dropped 581247962 entries (13.5332 %)
+2021-06-11 22:18:53.814661: [P2] Table 5 scan took 41.1549 sec
+2021-06-11 22:20:07.872197: [P2] Table 5 rewrite took 74.055 sec, dropped 761938122 entries (17.7403 %)
+2021-06-11 22:20:49.205386: [P2] Table 4 scan took 40.4912 sec
+2021-06-11 22:22:00.202388: [P2] Table 4 rewrite took 70.9945 sec, dropped 828807200 entries (19.2975 %)
+2021-06-11 22:22:41.292587: [P2] Table 3 scan took 40.2334 sec
+2021-06-11 22:23:51.972899: [P2] Table 3 rewrite took 70.6778 sec, dropped 855037755 entries (19.9081 %)
+2021-06-11 22:24:33.046548: [P2] Table 2 scan took 40.2446 sec
+2021-06-11 22:25:43.203303: [P2] Table 2 rewrite took 70.1542 sec, dropped 865518472 entries (20.1521 %)
+2021-06-11 22:25:44.028653: Phase 2 took 640.14 sec
+2021-06-11 22:25:44.056821: Wrote plot header with 268 bytes
+2021-06-11 22:26:28.526718: [P3-1] Table 2 took 44.4653 sec, wrote 3429410912 right entries
+2021-06-11 22:27:09.147043: [P3-2] Table 2 took 40.0852 sec, wrote 3429410912 left entries, 3429410912 final
+2021-06-11 22:28:02.647796: [P3-1] Table 3 took 53.4993 sec, wrote 3439883313 right entries
+2021-06-11 22:28:45.047133: [P3-2] Table 3 took 42.3981 sec, wrote 3439883313 left entries, 3439883313 final
+2021-06-11 22:29:39.435103: [P3-1] Table 4 took 54.3841 sec, wrote 3466077485 right entries
+2021-06-11 22:30:22.550742: [P3-2] Table 4 took 43.104 sec, wrote 3466077485 left entries, 3466077485 final
+2021-06-11 22:31:17.821860: [P3-1] Table 5 took 55.2698 sec, wrote 3533018285 right entries
+2021-06-11 22:32:01.946143: [P3-2] Table 5 took 44.1119 sec, wrote 3533018285 left entries, 3533018285 final
+2021-06-11 22:32:59.557164: [P3-1] Table 6 took 57.6097 sec, wrote 3713738851 right entries
+2021-06-11 22:33:47.069605: [P3-2] Table 6 took 47.5108 sec, wrote 3713738851 left entries, 3713738851 final
+2021-06-11 22:34:55.291038: [P3-1] Table 7 took 68.0162 sec, wrote 4295054157 right entries
+2021-06-11 22:36:10.126330: [P3-2] Table 7 took 73.9602 sec, wrote 4294967296 left entries, 4294967296 final
+2021-06-11 22:36:10.127788: Phase 3 took 626.068 sec, wrote 21877096142 entries to final plot
+2021-06-11 22:36:10.127795: [P4] Starting to write C1 and C3 tables
+2021-06-11 22:37:02.142731: [P4] Finished writing C1 and C3 tables
+2021-06-11 22:37:02.142941: [P4] Writing C2 table
+2021-06-11 22:37:02.142954: [P4] Finished writing C2 table
+2021-06-11 22:37:02.143416: Phase 4 took 52.0184 sec, final plot size is 108835305873 bytes
+2021-06-11 22:37:02.143425: Total plot creation time was 2580.42 sec
+2021-06-11 22:37:02.145432: Started copy to /media/plotter1/SG8TB2/plot-k32-2021-06-11-21-54-c722ff260691bef4c9808726becc2fd035843cb8427801755113b540b3ea5665.plot
+2021-06-11 22:37:02.145439: Process ID: 1500645
+2021-06-11 22:37:02.145444: Number of Threads: 16
+2021-06-11 22:37:02.145449: Number of Buckets: 2^7 (128)
+2021-06-11 22:37:02.152731: Working Directory:   /home/plotter1/raid0/
+2021-06-11 22:37:02.152738: Working Directory 2: /home/plotter1/raid0/
+2021-06-11 22:37:02.152744: Plot Name: plot-k32-2021-06-11-22-37-e85d35ce4bed396fa2c90a77d8c751398930214a69aa545fe16f8d58d445a348
+2021-06-11 22:37:32.106753: [P1] Table 1 took 29.9522 sec
+2021-06-11 22:40:25.741284: [P1] Table 2 took 173.631 sec, found 4294930456 matches
+2021-06-11 22:43:50.530496: [P1] Table 3 took 204.788 sec, found 4294880795 matches
+2021-06-11 22:48:03.215437: [P1] Table 4 took 252.684 sec, found 4294731346 matches
+2021-06-11 22:52:10.657152: [P1] Table 5 took 247.44 sec, found 4294593927 matches
+2021-06-11 22:56:08.325767: [P1] Table 6 took 237.667 sec, found 4294378391 matches
+2021-06-11 22:59:02.399272: [P1] Table 7 took 174.073 sec, found 4293667715 matches
+2021-06-11 22:59:02.400952: Phase 1 took 1320.25 sec
+2021-06-11 22:59:02.400959: [P2] max_table_size = 4294967296
+2021-06-11 22:59:28.651461: [P2] Table 7 scan took 23.3656 sec
+2021-06-11 22:59:29.328639: Copy to /media/plotter1/SG8TB2/plot-k32-2021-06-11-21-54-c722ff260691bef4c9808726becc2fd035843cb8427801755113b540b3ea5665.plot finished, took 1347.18 sec, 77.0448 MB/s avg.
+2021-06-11 23:00:15.945304: [P2] Table 7 rewrite took 47.2938 sec, dropped 0 entries (0 %)
+2021-06-11 23:00:59.897015: [P2] Table 6 scan took 42.8231 sec
+2021-06-11 23:02:15.283006: [P2] Table 6 rewrite took 75.3835 sec, dropped 581404853 entries (13.5387 %)
+2021-06-11 23:02:57.206295: [P2] Table 5 scan took 41.0792 sec
+2021-06-11 23:04:09.184913: [P2] Table 5 rewrite took 71.976 sec, dropped 761982634 entries (17.7428 %)
+2021-06-11 23:04:50.557706: [P2] Table 4 scan took 40.5392 sec
+2021-06-11 23:06:01.414148: [P2] Table 4 rewrite took 70.8539 sec, dropped 828863502 entries (19.2995 %)
+2021-06-11 23:06:42.574317: [P2] Table 3 scan took 40.3125 sec
+2021-06-11 23:07:55.305452: [P2] Table 3 rewrite took 72.7287 sec, dropped 855109737 entries (19.91 %)
+2021-06-11 23:08:36.552382: [P2] Table 2 scan took 40.4105 sec
+2021-06-11 23:09:46.863280: [P2] Table 2 rewrite took 70.3083 sec, dropped 865573668 entries (20.1534 %)
+2021-06-11 23:09:47.705976: Phase 2 took 645.306 sec
+2021-06-11 23:09:47.734226: Wrote plot header with 268 bytes
+2021-06-11 23:10:34.476030: [P3-1] Table 2 took 46.7372 sec, wrote 3429356788 right entries
+2021-06-11 23:11:19.244641: [P3-2] Table 2 took 44.2397 sec, wrote 3429356788 left entries, 3429356788 final
+2021-06-11 23:12:33.352112: [P3-1] Table 3 took 74.1061 sec, wrote 3439771058 right entries
+2021-06-11 23:13:21.164836: [P3-2] Table 3 took 47.8115 sec, wrote 3439771058 left entries, 3439771058 final
+2021-06-11 23:14:30.298027: [P3-1] Table 4 took 69.1292 sec, wrote 3465867844 right entries
+2021-06-11 23:15:39.166801: [P3-2] Table 4 took 68.867 sec, wrote 3465867844 left entries, 3465867844 final
+2021-06-11 23:16:48.101781: [P3-1] Table 5 took 68.9334 sec, wrote 3532611293 right entries
+2021-06-11 23:17:31.900630: [P3-2] Table 5 took 43.7973 sec, wrote 3532611293 left entries, 3532611293 final
+2021-06-11 23:18:29.358633: [P3-1] Table 6 took 57.4567 sec, wrote 3712973538 right entries
+2021-06-11 23:19:15.672323: [P3-2] Table 6 took 46.3122 sec, wrote 3712973538 left entries, 3712973538 final
+2021-06-11 23:20:22.368665: [P3-1] Table 7 took 66.6947 sec, wrote 4293667715 right entries
+2021-06-11 23:21:16.992943: [P3-2] Table 7 took 53.7346 sec, wrote 4293667715 left entries, 4293667715 final
+2021-06-11 23:21:16.994703: Phase 3 took 689.257 sec, wrote 21874248236 entries to final plot
+2021-06-11 23:21:16.994714: [P4] Starting to write C1 and C3 tables
+2021-06-11 23:22:08.303282: [P4] Finished writing C1 and C3 tables
+2021-06-11 23:22:08.304963: [P4] Writing C2 table
+2021-06-11 23:22:08.304974: [P4] Finished writing C2 table
+2021-06-11 23:22:08.304979: Phase 4 took 51.3123 sec, final plot size is 108817964747 bytes
+2021-06-11 23:22:08.304985: Total plot creation time was 2706.16 sec
+2021-06-11 23:22:08.306718: Started copy to /media/plotter1/SG8TB2/plot-k32-2021-06-11-22-37-e85d35ce4bed396fa2c90a77d8c751398930214a69aa545fe16f8d58d445a348.plot
+2021-06-11 23:22:08.306727: Process ID: 1500645
+2021-06-11 23:22:08.306732: Number of Threads: 16
+2021-06-11 23:22:08.306737: Number of Buckets: 2^7 (128)
+2021-06-11 23:22:08.314088: Working Directory:   /home/plotter1/raid0/
+2021-06-11 23:22:08.314095: Working Directory 2: /home/plotter1/raid0/
+2021-06-11 23:22:08.314101: Plot Name: plot-k32-2021-06-11-23-22-6d3f5ebed9352a98b080d2e96d8200bf4e69f76f1ecb9a15abf6ea0ebbe2483d
+2021-06-11 23:22:29.125897: [P1] Table 1 took 20.8101 sec
+2021-06-11 23:25:09.129826: [P1] Table 2 took 160.002 sec, found 4295053557 matches
+2021-06-11 23:28:37.853229: [P1] Table 3 took 208.722 sec, found 4295079017 matches
+2021-06-11 23:32:53.474763: [P1] Table 4 took 255.62 sec, found 4294976973 matches
+2021-06-11 23:37:03.932855: [P1] Table 5 took 250.457 sec, found 4294979573 matches
+2021-06-11 23:41:05.651164: [P1] Table 6 took 241.717 sec, found 4295016569 matches
+2021-06-11 23:44:01.534310: [P1] Table 7 took 175.883 sec, found 4294952972 matches
+2021-06-11 23:44:01.536004: Phase 1 took 1313.22 sec
+2021-06-11 23:44:01.536015: [P2] max_table_size = 4295079017
+2021-06-11 23:44:26.569011: Copy to /media/plotter1/SG8TB2/plot-k32-2021-06-11-22-37-e85d35ce4bed396fa2c90a77d8c751398930214a69aa545fe16f8d58d445a348.plot finished, took 1338.26 sec, 77.546 MB/s avg.
+2021-06-11 23:44:27.976099: [P2] Table 7 scan took 23.5578 sec
+2021-06-11 23:45:20.341425: [P2] Table 7 rewrite took 52.3653 sec, dropped 0 entries (0 %)
+2021-06-11 23:46:04.203678: [P2] Table 6 scan took 42.7796 sec
+2021-06-11 23:47:19.489526: [P2] Table 6 rewrite took 75.2858 sec, dropped 581299928 entries (13.5343 %)
+2021-06-11 23:48:01.635892: [P2] Table 5 scan took 41.3847 sec
+2021-06-11 23:49:14.002947: [P2] Table 5 rewrite took 72.367 sec, dropped 761934940 entries (17.7401 %)
+2021-06-11 23:49:55.439486: [P2] Table 4 scan took 40.6645 sec
+2021-06-11 23:51:06.429611: [P2] Table 4 rewrite took 70.9901 sec, dropped 828848717 entries (19.2981 %)
+2021-06-11 23:51:47.649689: [P2] Table 3 scan took 40.4388 sec
+2021-06-11 23:53:02.248956: [P2] Table 3 rewrite took 74.5993 sec, dropped 855145320 entries (19.9099 %)
+2021-06-11 23:53:43.199941: [P2] Table 2 scan took 40.1859 sec
+2021-06-11 23:54:53.641210: [P2] Table 2 rewrite took 70.4413 sec, dropped 865631220 entries (20.1541 %)
+2021-06-11 23:54:54.421085: Phase 2 took 652.886 sec
+2021-06-11 23:54:54.447734: Wrote plot header with 268 bytes
+2021-06-11 23:55:41.615298: [P3-1] Table 2 took 47.166 sec, wrote 3429422337 right entries
+2021-06-11 23:56:27.216953: [P3-2] Table 2 took 45.084 sec, wrote 3429422337 left entries, 3429422337 final
+2021-06-11 23:57:47.202299: [P3-1] Table 3 took 79.9699 sec, wrote 3439933697 right entries
+2021-06-11 23:58:29.816339: [P3-2] Table 3 took 42.6129 sec, wrote 3439933697 left entries, 3439933697 final
+2021-06-11 23:59:26.021547: [P3-1] Table 4 took 56.204 sec, wrote 3466128256 right entries
+2021-06-12 00:00:29.302931: [P3-2] Table 4 took 63.2799 sec, wrote 3466128256 left entries, 3466128256 final
+2021-06-12 00:01:24.616366: [P3-1] Table 5 took 55.3096 sec, wrote 3533044633 right entries
+2021-06-12 00:02:08.571436: [P3-2] Table 5 took 43.9538 sec, wrote 3533044633 left entries, 3533044633 final
+2021-06-12 00:03:06.460003: [P3-1] Table 6 took 57.8874 sec, wrote 3713716641 right entries
+2021-06-12 00:03:53.238881: [P3-2] Table 6 took 46.7615 sec, wrote 3713716641 left entries, 3713716641 final
+2021-06-12 00:04:59.711855: [P3-1] Table 7 took 66.4713 sec, wrote 4294952972 right entries
+2021-06-12 00:05:54.353488: [P3-2] Table 7 took 53.8125 sec, wrote 4294952972 left entries, 4294952972 final
+2021-06-12 00:05:54.354997: Phase 3 took 659.904 sec, wrote 21877198536 entries to final plot
+2021-06-12 00:05:54.355005: [P4] Starting to write C1 and C3 tables
+2021-06-12 00:06:46.268761: [P4] Finished writing C1 and C3 tables
+2021-06-12 00:06:46.268971: [P4] Writing C2 table
+2021-06-12 00:06:46.268982: [P4] Finished writing C2 table
+2021-06-12 00:06:46.269172: Phase 4 took 51.917 sec, final plot size is 108835679441 bytes
+2021-06-12 00:06:46.269179: Total plot creation time was 2677.96 sec
+2021-06-12 00:06:46.271216: Started copy to /media/plotter1/SG8TB2/plot-k32-2021-06-11-23-22-6d3f5ebed9352a98b080d2e96d8200bf4e69f76f1ecb9a15abf6ea0ebbe2483d.plot
